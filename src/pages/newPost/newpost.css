@@ -1,0 +1,67 @@
+.newPost {
+    padding-top: 50px;
+    margin-top: 60px;
+}
+
+.newpostForm {
+    position: relative;
+}
+
+.newpostformGroup {
+    margin-left: 150px;
+}
+
+.newPostImg {
+    margin-left: 150px;
+    width:70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.fileinputIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 24;
+    width: 70vw;
+}
+
+.writeInput:focus {
+    outline: none;
+
+}
+
+.writeText {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.writeSubmit {
+   
+    top: 20px;
+    right: 50px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+
+}

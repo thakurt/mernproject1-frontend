@@ -1,0 +1,108 @@
+.individualPost {
+    flex: 9;
+    margin-top: 60px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.individualPostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.individualpostWraper {
+   
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+.indpostDate{
+    font-weight: bold;
+}
+
+.topImg{
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	object-fit: cover;
+	
+}
+
+
+.individualpostIMG {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.individualpostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Lora", serif;
+
+}
+
+.individualpostTitleInput{
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Lora", serif;
+
+
+}
+.individualpostTitleInput{
+    outline: none;
+}
+
+.individualpostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.indpostIcon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.indpostIcon:first-child {
+    color: green;
+}
+
+.indpostIcon:last-child {
+    color: red;
+}
+
+.indpostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.indpostDes {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.indpostDes::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singlepostButton{
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+}
