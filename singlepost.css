@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+   
+   
+}
+
+    
+  
+  
+  
+  
+  
+  img {
+    max-width: 100%;
+    transition: all 0.7s;
+  }
+  
+  .title{
+    font-size: 25px;font-family: lobster;
+  }
+  
+  .news-box {
+    transition: all 0.3s;
+  
+    color: rgb(29, 25, 25);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    height: 450px;
+    margin-top: 50px;
+   margin-left: 10px;
+   margin-right: 10px;
+  
+  }
+  
+  h3{
+    font-size: 25px;font-family: lobster;
+  }
+  
+  .para{
+    padding: 0;
+    
+    text-overflow: ellipsis;
+    display: -webkit-box;
+     -webkit-line-clamp: 5; /* number of lines to show */
+             line-clamp: 5; 
+     -webkit-box-orient: vertical;
+    word-wrap: break-word;
+   overflow:hidden;
+   line-height: 23px;
+   font-size: 15px;
+   font-family: teko ;
+   
+  }
