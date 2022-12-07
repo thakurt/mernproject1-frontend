@@ -20,7 +20,7 @@ export default function Register() {
             password
         })
         // if registration becomes successful then will redirect to login page
-        res.data && window.location.replace("https://mernapi1.onrender.com/api/auth/login")
+        res.data && window.location.replace("/login")
     }
         catch(err){
         setError(true)
