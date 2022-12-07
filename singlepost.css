@@ -60,3 +60,10 @@ body {
    font-family: teko ;
    
   }
+
+
+  @media screen and (max-width: 768px){
+    .news-box{
+      height: 450px;
+    }
+  }
